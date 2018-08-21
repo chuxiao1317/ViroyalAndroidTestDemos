@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="dialog_custom_title_text_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/text_color_property</item>
+    </style>
+
+    <style name="dialog_custom_content_text_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@color/text_color_property</item>
+    </style>
+
+    <style name="dialog_custom_text_style">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textSize">17dp</item>
+        <item name="android:textColor">@drawable/text_light_blue_click</item>
+    </style>
+
+    <style name="divide_line_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/divide_line_height</item>
+        <item name="android:background">@drawable/divide_line_color</item>
+    </style>
+    <!-- 底部按钮 style -->
+    <style name="long_button_style_deep">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">43.3dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:background">@drawable/long_btn_bg</item>
+        <item name="android:textColor">@drawable/long_btn_txt_color_selector</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+
+    <style name="horizontal_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/c3</item>
+    </style>
+
+    <style name="anim_push_bottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/push_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/push_bottom_out</item>
+    </style>
+
+    <!--登录注册密码找回按钮样式-->
+    <style name="login_button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/login_button_height</item>
+        <item name="android:layout_marginLeft">@dimen/login_button_side_left</item>
+        <item name="android:layout_marginRight">@dimen/login_button_side_right</item>
+        <item name="android:layout_marginTop">@dimen/login_button_side_top</item>
+        <item name="android:textSize">@dimen/text_size_xl</item>
+    </style>
+
+    <style name="button_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/login_button_height</item>
+        <item name="android:layout_marginLeft">@dimen/login_button_side_left</item>
+        <item name="android:layout_marginRight">@dimen/login_button_side_right</item>
+        <item name="android:textSize">@dimen/text_size_xl</item>
+    </style>
+
+</resources>

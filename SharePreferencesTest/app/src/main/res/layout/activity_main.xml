@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chuxiao.sharepreferencestest.MainActivity">
+
+    <Button
+        android:id="@+id/save_data_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="保存数据" />
+
+    <Button
+        android:id="@+id/restore_data_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="恢复数据" />
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/age_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/married_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

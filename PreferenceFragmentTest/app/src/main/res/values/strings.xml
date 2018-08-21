@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">偏好设置Test</string>
+    <!-- - - - - - - - - - - - - - - -
+          - Used by Preferences  -
+          - - - - - - - - - - - - - - - -->
+
+
+    <!--显示在UI上的内容-->
+    <string name="pref_show_bass_label">显示低音可视化圆圈</string>
+    <!--实际存储的值，此处设置不可翻译，即，当制作应用的当地话版本时，ui内容将被翻译，而值不可翻译，避免出错-->
+    <string name="pref_show_bass_key" translatable="false">show_bass</string>
+
+    <string name="pref_show_mid_label">显示中音可视化圆圈</string>
+    <string name="pref_show_mid_key" translatable="false">show_mid</string>
+
+    <string name="pref_show_treble_label">显示高音可视化圆圈</string>
+    <string name="pref_show_treble_key" translatable="false">show_treble</string>
+
+    <string name="pref_show_true">显示</string>
+    <string name="pref_show_false">隐藏</string>
+
+
+    <string name="pref_color_label">颜色</string>
+    <string name="pref_color_key" translatable="false">color</string>
+
+    <string name="pref_color_label_red">红色</string>
+    <string name="pref_color_label_blue">蓝色</string>
+    <string name="pref_color_label_green">绿色</string>
+
+    <string name="pref_color_red_value" translatable="false">red</string>
+    <string name="pref_color_blue_value" translatable="false">blue</string>
+    <string name="pref_color_green_value" translatable="false">green</string>
+
+
+    <string name="pref_size_label">视图大小</string>
+    <string name="pref_size_key" translatable="false">size</string>
+    <string name="pref_size_default" translatable="false">1</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+    <!--android:id="@+id/dialog_custom_title"-->
+    <!--style="@style/dialog_custom_title_text_style"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="64dp"-->
+    <!--android:gravity="center" />-->
+
+    <View
+        style="@style/divide_line_style"
+        android:layout_marginLeft="@dimen/dialog_line_margin_h"
+        android:layout_marginRight="@dimen/dialog_line_margin_h" />
+
+    <include layout="@layout/dialog_custom_bottom_layout" />
+
+    <View
+        style="@style/divide_line_style"
+        android:layout_marginLeft="@dimen/dialog_line_margin_h"
+        android:layout_marginRight="@dimen/dialog_line_margin_h" />
+
+    <DatePicker
+        android:id="@+id/date_picker_custom_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false" />
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divide_line_height">0.5dp</dimen>
+    <dimen name="divider_padding_left">12dp</dimen>
+    <dimen name="divider_padding_right">12dp</dimen>
+    <dimen name="dialog_item_height">58dp</dimen>
+    <dimen name="dialog_corner_radius">4dp</dimen>
+    <dimen name="dialog_progress_width">100dp</dimen>
+    <dimen name="dialog_progress_height">100dp</dimen>
+    <dimen name="dialog_content_margin_bottom">20dp</dimen>
+    <dimen name="dialog_content_margin_left">18dp</dimen>
+    <dimen name="dialog_content_margin_right">18dp</dimen>
+    <dimen name="dialog_content_margin_top">0dp</dimen>
+    <dimen name="dialog_line_margin_v">10dp</dimen>
+    <dimen name="margin_side_right">12dp</dimen>
+    <dimen name="margin_side_left">12dp</dimen>
+    <dimen name="toast_radius">5dp</dimen>
+    <dimen name="edittext_height">56dp</dimen>
+    <dimen name="popup_margin_1">20dp</dimen>
+    <dimen name="title_text_size">14dp</dimen>
+    <dimen name="dialog_line_margin_h">15dp</dimen>
+    <dimen name="title_bar_height">50dp</dimen>
+
+    <dimen name="dialog_input_text_size">40.7dp</dimen>
+
+    <!--通用型字体大小-->
+    <!--一般应用中主要的字体大小就这些-->
+    <!--通用型字体大小-->
+    <dimen name="text_size_xxl">30.7dp</dimen>
+    <!--activit title -->
+    <dimen name="text_size_xl">20.7dp</dimen>
+    <!--设置项左边 title-->
+    <dimen name="text_size_l">15.3dp</dimen>
+    <!--设置项右边 content, toolbar右上按钮文字-->
+    <dimen name="text_size_m">13.3dp</dimen>
+    <dimen name="text_size_s">11.3dp</dimen>
+    <dimen name="text_size_ss">9.3dp</dimen>
+    <!--标题栏 标题字体大小-->
+    <dimen name="activity_title_text_size">@dimen/text_size_xl</dimen>
+
+    <!--日历-->
+    <dimen name="calendar_top_control_height">30dp</dimen>
+    <dimen name="dialog_custom_title_height">40dp</dimen>
+    <dimen name="dialog_custom_width">350dp</dimen>
+    <dimen name="dialog_custom_min_height">200dp</dimen>
+    <dimen name="dialog_custom_layout_button_height">40dp</dimen>
+    <dimen name="dialog_calendar_width">320dp</dimen>
+    <dimen name="dialog_calendar_height">302dp</dimen>
+    <dimen name="dialog_calendar_view_width">290dp</dimen>
+    <dimen name="dialog_calendar_view_height">252dp</dimen>
+
+    <!--登录-->
+    <dimen name="login_button_height">40dp</dimen>
+    <dimen name="login_button_side_right">20dp</dimen>
+    <dimen name="login_button_side_left">20dp</dimen>
+    <dimen name="login_button_side_top">20dp</dimen>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">人脸检测Test</string>
+    <string name="emojify_me">Emojify Me!</string>
+    <string name="no_emoji">No Emoji Expression Found</string>
+    <string name="delete_success">找到图片！</string>
+    <string name="delete_failure">查找图片失败</string>
+    <string name="saved_message">图片已保存 %1$s</string>
+    <string name="not_saved">图片保存失败</string>
+    <string name="error">Error finding image</string>
+    <string name="go">GO</string>
+    <string name="permission_denied">权限已被拒绝</string>
+    <string name="imageview_description">The imageview that contains the emojified picture</string>
+    <string name="no_faces_message">未检测到人脸</string>
+</resources>

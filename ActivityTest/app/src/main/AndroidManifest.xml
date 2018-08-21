@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chuxiao.androidtest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="褚枭app"
+            android:launchMode="singleTask">
+            <!--android:launchMode="singleTop">-->
+            <!--android:launchMode="standard">-->
+            <!--android:launchMode="singleInstance">-->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--单一实例模式，此时MainActivity和ThirdActivity共在一个栈，SecondActivity独在一个栈-->
+        <activity
+            android:name=".SecondActivity"
+            android:launchMode="singleInstance">
+            <!--android:launchMode="standard">-->
+            <!--android:launchMode="singleTask">-->
+            <!--android:launchMode="singleInstance">-->
+            <intent-filter>
+                <!--用来作为隐式intent的传递参数-->
+                <action android:name="com.chuxiao.androidtest.ACTION_START" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <!--除了上方的默认category会在startActivity()的时候自动添加到intent，每个intent可以通过intent.addCategory()方法指定多个category-->
+                <category android:name="com.chuxiao.androidtest.MY_CATEGORY" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ThirdActivity">
+            <intent-filter>
+                <!--<action android:name="android.intent.action.aa" />-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="http" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

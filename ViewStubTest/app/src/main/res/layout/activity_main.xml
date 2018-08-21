@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chuxiao.betterperformancetest.MainActivity">
+
+    <Button
+        android:id="@+id/bt_visible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="clickToVisible"
+        android:text="Visible"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/bt_inflate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/bt_visible"
+        android:layout_toEndOf="@id/bt_visible"
+        android:onClick="clickToInflate"
+        android:text="Inflate"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <!--延迟加载的引用布局-->
+        <ViewStub
+            android:id="@+id/viewStub1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:inflatedId="@+id/viewStub1InflateId"
+            android:layout="@layout/view_stub_test" />
+
+        <!--延迟加载的引用布局-->
+        <ViewStub
+            android:id="@+id/viewStub2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:inflatedId="@+id/viewStub2InflateId"
+            android:layout="@layout/view_stub_test" />
+
+    </LinearLayout>
+
+</RelativeLayout>

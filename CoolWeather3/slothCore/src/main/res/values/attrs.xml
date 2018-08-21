@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="runtextview">
+        <!-- 输入框文字颜色-->
+        <attr name="titleColor" format="color"/>
+        <!-- 输入框文字大小-->
+        <attr name="runTextSize" format="dimension"/>
+        <!-- 输入框文字颜色-->
+        <attr name="contentColor" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="gridview">
+        <!-- 加分割线-->
+        <attr name="showline" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="numberPicker">
+        <!-- 加背景-->
+        <attr name="addImg" format="reference|color"/>
+        <!-- 减背景-->
+        <attr name="subtractImg" format="reference|color"/>
+        <!-- 输入框背景-->
+        <attr name="textBackground" format="reference|color"/>
+        <!-- 加减按键大小背景-->
+        <attr name="buttonWH" format="dimension"/>
+        <!-- 设置最小值-->
+        <attr name="minnum" format="integer"/>
+        <!-- 输入框文字颜色-->
+        <attr name="txColor" format="color"/>
+        <!-- 输入框文字大小-->
+        <attr name="txSize" format="dimension"/>
+    </declare-styleable>
+
+    <!--自定义输入框的属性-->
+    <declare-styleable name="IconEditText">
+        <!--左边的图片-->
+        <attr name="leftImageSrc" format="reference"/>
+        <!--右边的图片-->
+        <attr name="rightImageSrc" format="reference"/>
+        <!--hint-->
+        <attr name="hint" format="string"/>
+        <!--hintColor-->
+        <attr name="hintColor" format="reference"/>
+        <!--int TYPE_CLASS_DATETIME = 4;
+            int TYPE_CLASS_NUMBER = 2;
+            int TYPE_CLASS_PHONE = 3;
+            int TYPE_CLASS_TEXT = 1;-->
+        <!--输入文本的种类-->
+        <attr name="inputType">
+            <enum name="TYPE_CLASS_DATETIME" value="4"/>
+            <enum name="TYPE_CLASS_NUMBER" value="2"/>
+            <enum name="TYPE_CLASS_PHONE" value="3"/>
+            <enum name="TYPE_CLASS_TEXT" value="1"/>
+            <enum name="TYPE_TEXT_VARIATION_PASSWORD" value="128"/>
+        </attr>
+        <!--左图的左边距-->
+        <attr name="leftImageMarginLeft" format="dimension"/>
+        <!--编辑区的左边距-->
+        <attr name="editTextMarginLeft" format="dimension"/>
+        <!--内容字体颜色-->
+        <attr name="textColor" format="reference"/>
+        <!--内容字体大小-->
+        <attr name="textSize" format="dimension"/>
+        <!--内容最大的长度-->
+        <attr name="maxLength" format="integer"/>
+        <!--是否显示左边的图片-->
+        <attr name="showLeft" format="boolean"/>
+        <!--是否显示右边图片-->
+        <attr name="showRight" format="boolean"/>
+        <!--是否支持emoji-->
+        <attr name="emojiallow" format="boolean"/>
+        <!--是否居中-->
+        <attr name="center" format="boolean"/>
+
+    </declare-styleable>
+
+    <attr name="titleTextSize" format="dimension"/>
+    <attr name="titleTextColorRes" format="reference"/>
+    <attr name="contentTextSize" format="dimension"/>
+    <attr name="contentTextColorRes" format="reference"/>
+
+    <declare-styleable name="SettingItemView">
+        <attr name="paddingMiddle" format="dimension"/>
+        <attr name="insidePaddingLeft" format="dimension"/>
+        <attr name="insidePaddingRight" format="dimension"/>
+        <attr name="titleTextSize"/>
+        <attr name="titleTextColorRes"/>
+        <attr name="contentTextSize"/>
+        <attr name="contentTextColorRes"/>
+        <attr name="titleText" format="string"/>
+        <attr name="contentText" format="string"/>
+        <attr name="contentLengh" format="integer"/>
+        <attr name="arrowBackgroundRes" format="reference"/>
+        <attr name="showArrow" format="boolean"/>
+        <attr name="divideBackgroundRes" format="reference"/>
+        <attr name="showDivide" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="FilterView">
+        <attr name="titleTextSize"/>
+        <attr name="titleTextColorRes"/>
+        <attr name="contentTextHeight" format="dimension"/>
+        <attr name="contentTextWidth" format="dimension"/>
+        <!--宽高根据字体大小自适应-->
+        <attr name="autoSquare" format="boolean"/>
+        <attr name="gravityCentre" format="boolean"/>
+        <attr name="contentTextSize"/>
+        <attr name="contentTextColorRes"/>
+        <attr name="contentTextBackgroundRes" format="reference"/>
+        <attr name="contentTextMargin" format="dimension"/>
+        <attr name="multiSelect" format="boolean"/>
+        <attr name="notNull" format="boolean"/>
+        <attr name="maxChose" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="SwitchButton">
+        <attr name="kswThumbDrawable" format="reference"/>
+        <attr name="kswThumbColor" format="color|reference"/>
+        <attr name="kswThumbMargin" format="dimension|reference"/>
+        <attr name="kswThumbMarginTop" format="dimension|reference"/>
+        <attr name="kswThumbMarginBottom" format="dimension|reference"/>
+        <attr name="kswThumbMarginLeft" format="dimension|reference"/>
+        <attr name="kswThumbMarginRight" format="dimension|reference"/>
+        <attr name="kswThumbWidth" format="dimension|reference"/>
+        <attr name="kswThumbHeight" format="dimension|reference"/>
+        <attr name="kswThumbRadius" format="dimension|reference"/>
+        <attr name="kswBackRadius" format="dimension|reference"/>
+        <attr name="kswBackDrawable" format="reference"/>
+        <attr name="kswBackColor" format="color|reference"/>
+        <attr name="kswFadeBack" format="boolean"/>
+        <attr name="kswBackMeasureRatio" format="float"/>
+        <attr name="kswAnimationDuration" format="integer"/>
+        <attr name="kswTintColor" format="color|reference"/>
+        <attr name="kswTextOn" format="string"/>
+        <attr name="kswTextOff" format="string"/>
+        <attr name="kswTextMarginH" format="dimension"/>
+        <attr name="kswAutoAdjustTextPosition" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="MyCalendarView">
+        <attr name="CalendarBaseTextSizes" format="dimension"/>
+        <attr name="CalendarChoseBg" format="reference"/>
+        <attr name="CalendarTodayBg" format="reference"/>
+        <attr name="CalendarHaveBg" format="reference"/>
+        <!--高宽比例-->
+        <attr name="CalendarHWScale" format="float"/>
+        <attr name="CalendarTextColor" format="reference"/>
+        <attr name="CalendarTextColorFade" format="reference"/>
+
+        <attr name="CalendarPreImageRes" format="reference"/>
+        <attr name="CalendarNextImageRes" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="GestureLockViewGroup">
+        <attr name="color_no_finger_inner_circle" format="color" />
+        <attr name="color_no_finger_outer_circle" format="color" />
+        <attr name="color_finger_on" format="color" />
+        <attr name="color_finger_up" format="color" />
+        <attr name="count" format="integer" />
+        <attr name="tryTimes" format="integer" />
+    </declare-styleable>
+</resources>

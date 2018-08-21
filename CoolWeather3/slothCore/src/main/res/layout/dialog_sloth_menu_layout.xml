@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ListView
+        android:id="@+id/dialog_menu_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@drawable/listview_divider"
+        android:dividerHeight="@dimen/divide_line_height"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/c3"/>
+        <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="@dimen/dialog_item_height"
+                  android:minHeight="@dimen/dialog_item_height"
+                  android:orientation="horizontal"
+                  android:gravity="center">
+
+            <TextView
+                android:id="@+id/dialog_cancle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:minHeight="@dimen/dialog_item_height"
+                style="@style/dialog_custom_title_text_style"
+                android:background="@color/white"
+                android:textColor="@color/c7"
+                android:text="@string/cancel"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/dialog_ok"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:minHeight="@dimen/dialog_item_height"
+                style="@style/dialog_custom_title_text_style"
+                android:background="@color/button_press_red"
+                android:textColor="@color/white"
+                android:text="@string/ok"
+                android:gravity="center"/>
+        </LinearLayout>
+</LinearLayout>

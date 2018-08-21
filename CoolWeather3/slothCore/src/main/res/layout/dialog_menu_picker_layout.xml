@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/custom_edit_dialog_bg"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/dialog_custom_title"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center"
+        style="@style/dialog_custom_title_text_style"
+        android:text="Android App"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/menu_check_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        style="@style/divide_line_style" />
+
+    <include
+        layout="@layout/dialog_custom_bottom_layout"/>
+</LinearLayout>

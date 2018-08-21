@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">加载器Test</string>
+    <string name="search">Search</string>
+    <string name="error_message">
+        搜索失败，请重试！
+    </string>
+</resources>
