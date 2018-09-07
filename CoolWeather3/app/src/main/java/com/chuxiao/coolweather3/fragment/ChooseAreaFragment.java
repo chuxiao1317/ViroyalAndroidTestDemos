@@ -234,7 +234,7 @@ public class ChooseAreaFragment extends Fragment {
     }
 
     /**
-     * 注册之后此处才能收到
+     * RxBus注册之后此处才能收到
      */
     @Subscribe(thread = EventThread.IMMEDIATE, tags = {@Tag("queryFromServer")})
     public void queryFromServerCallback(String type) {

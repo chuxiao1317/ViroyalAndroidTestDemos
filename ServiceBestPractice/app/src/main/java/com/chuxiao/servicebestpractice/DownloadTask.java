@@ -70,6 +70,7 @@ public class DownloadTask extends AsyncTask<String, Integer, Integer> {
                 // 已存在，读取已下载的字节数，方面后面断点续传
                 downloadedLength = file.length();
             }
+            // 获取待下载文件的总长度
             long contentLength = getContentLength(downloadUrl);
             if (contentLength == 0) {
                 return TYPE_FAILED;
